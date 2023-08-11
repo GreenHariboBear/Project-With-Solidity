@@ -17,6 +17,14 @@ contract P2
     }
 }
 
+contract P2 
+{
+    function show() public virtual pure returns (string memory)
+    {
+        return "show in P3";
+    }
+}
+
 
 contract Child is P1,P2
 {
