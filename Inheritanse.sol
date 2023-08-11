@@ -1,5 +1,3 @@
-// SPDX-License-Identifier: MIT
-
 contract P1
 {
     function show() public virtual pure returns(string memory)
@@ -17,7 +15,7 @@ contract P2
     }
 }
 
-contract P2 
+contract P3
 {
     function show() public virtual pure returns (string memory)
     {
