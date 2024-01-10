@@ -12,3 +12,14 @@ contract FixedSizeArray {
         return b1;
     }
 }
+
+contract FixedSizeArray {
+    bytes1 public b1=b2;
+    function setBytesArray(bytes1 b2) public returns(bytes1) {
+        b1 = b2;
+        return b1;
+    }  
+    function getByteValue() public view returns (bytes1) {
+        return b1;
+    }
+}
